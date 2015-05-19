@@ -2,5 +2,5 @@
 <resources>
     <color name="main_yellow">#F3BD1D</color>
 
-    <color name="status_bar_foreground">#4000</color>
+    <color name="status_bar_foreground">#0000</color>
 </resources>
