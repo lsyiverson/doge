@@ -5,9 +5,14 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/ActionBar.DrawerToggle</item>
 
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="colorPrimary">@color/main_yellow</item>
     </style>
 
+    <style name="ActionBar.DrawerToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
 </resources>
