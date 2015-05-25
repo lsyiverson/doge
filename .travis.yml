@@ -1,15 +1,19 @@
 language: android
 android:
-  components:
-    # Uncomment the lines below if you want to
-    # use the latest revision of Android SDK Tools
-    # - platform-tools
-    # - tools
+    components:
+        # Uncomment the lines below if you want to
+        # use the latest revision of Android SDK Tools
+        # - platform-tools
+        # - tools
 
-    # The BuildTools version used by your project
-    - build-tools-22.0.1
+        # The BuildTools version used by your project
+        - build-tools-22.0.1
 
-    # The SDK version used to compile your project
-    - android-22
-  script:
-    ./gradlew clean build
+        # The SDK version used to compile your project
+        - android-22
+    components:
+        - extra-android-support
+    licenses:
+        - 'android-sdk-license-.+'
+    script:
+        ./gradlew clean build
